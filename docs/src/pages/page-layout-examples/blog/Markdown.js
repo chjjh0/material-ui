@@ -46,4 +46,4 @@ const renderers = {
 
 export default function Markdown(props) {
   return <ReactMarkdown renderers={renderers} {...props} />;
-}
+};
